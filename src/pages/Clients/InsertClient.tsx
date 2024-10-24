@@ -21,7 +21,7 @@ const InsertClient = () => {
     const [getValidade, setValidade] = useState('');
     const [getZenUpdate, setZenUpdate] = useState<boolean|undefined>(false);
 
-    const [getCookies] = useCookies([]);
+    const [getCookies] = useCookies<any>([]);
 
     const [getToast, setToast] = useState<boolean>();
     const [getMessageType, setMessageType] = useState<string>('');

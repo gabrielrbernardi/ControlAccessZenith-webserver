@@ -15,7 +15,7 @@ const Login = () => {
     const [getUser, setUser] = useState('');
     const [getPassword, setPassword] = useState('');
 
-    const [, setCookies] = useCookies([]);
+    const [, setCookies] = useCookies<any>();
 
     const [getLoading, setLoading] = useState<boolean>(false);
 

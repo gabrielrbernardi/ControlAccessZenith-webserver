@@ -24,7 +24,7 @@ const Clients = () => {
     const [getFirst, setFirst] = useState(0);
     const [totalRecords, setTotalRecords] = useState();
 
-    const [getCookies] = useCookies([]);
+    const [getCookies] = useCookies<any>();
 
     const [showDialog1, setShowDialog1] = useState<boolean>();
     const [showDialog2, setshowDialog2] = useState<boolean>();
@@ -156,26 +156,28 @@ const Clients = () => {
     **************************************************/
     async function fetchData(endIndex: number) {
         try {
-            if (getCookies.token) {
-                await api.get(`/allclients`).then(response => {
-                    setLoading(true);
-                    if (response.data.showClients) {
-                        setTimeout(() => {
-                            setClients(response.data.clients);
-                            setTotalRecords(response.data.length);
+            if(getCookies){
+                if (getCookies?.token) {
+                    await api.get(`/allclients`).then(response => {
+                        setLoading(true);
+                        if (response.data.showClients) {
+                            setTimeout(() => {
+                                setClients(response.data.clients);
+                                setTotalRecords(response.data.length);
+                                setLoading(false);
+                            }, 500)
+                        }else{
+                            showToast("error", "Erro", response.data.error)
                             setLoading(false);
-                        }, 500)
-                    }else{
-                        showToast("error", "Erro", response.data.error)
+                        }
+                    }).catch(err => {
+                        showToast("error", "Erro", err.response.data.error +  " Status de erro: " + err.response.status)
                         setLoading(false);
-                    }
-                }).catch(err => {
-                    showToast("error", "Erro", err.response.data.error +  " Status de erro: " + err.response.status)
-                    setLoading(false);
-                })
-            }else{
-                showToast("error", "Erro", "Acesso negado.");
-            }    
+                    })
+                }else{
+                    showToast("error", "Erro", "Acesso negado.");
+                }    
+            }
 
         } catch (error) {
             return;

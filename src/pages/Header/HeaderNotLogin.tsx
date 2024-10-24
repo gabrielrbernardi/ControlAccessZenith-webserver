@@ -7,7 +7,7 @@ import { useCookies } from 'react-cookie';
 
 const HeaderNotLogin = () => {
     const history = useHistory();
-    const [getCookies] = useCookies([]);
+    const [getCookies] = useCookies<any>();
     const [getShowBack, setShowBack] = useState<boolean>(true);
 
     useEffect(() => {

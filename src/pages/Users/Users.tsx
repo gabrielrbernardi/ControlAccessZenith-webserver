@@ -19,7 +19,7 @@ const Users = () => {
     const [totalRecords, setTotalRecords] = useState();
     const [selectedUser, setSelectedUser] = useState<any>(null);
 
-    const [getCookies] = useCookies([]);
+    const [getCookies] = useCookies<any>();
 
     const [getToast, setToast] = useState<boolean>();
     const [getMessageType, setMessageType] = useState<string>('');
