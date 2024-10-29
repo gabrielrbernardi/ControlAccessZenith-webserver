@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/ControlAccessZenith-webserver/static/css/main.e22fd4dc.chunk.css",
-    "main.js": "/ControlAccessZenith-webserver/static/js/main.1cdef40e.chunk.js",
-    "main.js.map": "/ControlAccessZenith-webserver/static/js/main.1cdef40e.chunk.js.map",
-    "runtime-main.js": "/ControlAccessZenith-webserver/static/js/runtime-main.f51234b7.js",
-    "runtime-main.js.map": "/ControlAccessZenith-webserver/static/js/runtime-main.f51234b7.js.map",
-    "static/css/2.b64570d8.chunk.css": "/ControlAccessZenith-webserver/static/css/2.b64570d8.chunk.css",
-    "static/js/2.a12e759f.chunk.js": "/ControlAccessZenith-webserver/static/js/2.a12e759f.chunk.js",
-    "static/js/2.a12e759f.chunk.js.map": "/ControlAccessZenith-webserver/static/js/2.a12e759f.chunk.js.map",
+    "main.css": "/ControlAccessZenith-webserver/static/css/main.815a831a.css",
+    "main.js": "/ControlAccessZenith-webserver/static/js/main.a0834dea.js",
+    "static/media/primeicons.svg": "/ControlAccessZenith-webserver/static/media/primeicons.c55d94a248721abbd220.svg",
+    "static/media/primeicons.eot": "/ControlAccessZenith-webserver/static/media/primeicons.dfbfef2de4bfb34e9722.eot",
+    "static/media/primeicons.woff": "/ControlAccessZenith-webserver/static/media/primeicons.e61f3495a7ecd3d571a4.woff",
+    "static/media/primeicons.ttf": "/ControlAccessZenith-webserver/static/media/primeicons.3a0d4a58da62cf7c55bb.ttf",
+    "static/media/roboto-v20-latin-ext_latin-700.woff": "/ControlAccessZenith-webserver/static/media/roboto-v20-latin-ext_latin-700.8aba6dc5d991e4367d7a.woff",
+    "static/media/roboto-v20-latin-ext_latin-500.woff": "/ControlAccessZenith-webserver/static/media/roboto-v20-latin-ext_latin-500.e492ac63197a57e7f4d3.woff",
+    "static/media/roboto-v20-latin-ext_latin-regular.woff": "/ControlAccessZenith-webserver/static/media/roboto-v20-latin-ext_latin-regular.ae804dc012b1b5255474.woff",
+    "static/media/roboto-v20-latin-ext_latin-500.woff2": "/ControlAccessZenith-webserver/static/media/roboto-v20-latin-ext_latin-500.0b45721325446d537b54.woff2",
+    "static/media/roboto-v20-latin-ext_latin-700.woff2": "/ControlAccessZenith-webserver/static/media/roboto-v20-latin-ext_latin-700.1d1ef7788f0ff084b881.woff2",
+    "static/media/roboto-v20-latin-ext_latin-regular.woff2": "/ControlAccessZenith-webserver/static/media/roboto-v20-latin-ext_latin-regular.5cb5c8f08bb4e6cb64c3.woff2",
     "index.html": "/ControlAccessZenith-webserver/index.html",
-    "static/css/2.b64570d8.chunk.css.map": "/ControlAccessZenith-webserver/static/css/2.b64570d8.chunk.css.map",
-    "static/css/main.e22fd4dc.chunk.css.map": "/ControlAccessZenith-webserver/static/css/main.e22fd4dc.chunk.css.map",
-    "static/js/2.a12e759f.chunk.js.LICENSE.txt": "/ControlAccessZenith-webserver/static/js/2.a12e759f.chunk.js.LICENSE.txt",
-    "static/media/primeicons.css": "/ControlAccessZenith-webserver/static/media/primeicons.e61f3495.woff",
-    "static/media/theme.css": "/ControlAccessZenith-webserver/static/media/roboto-v20-latin-ext_latin-regular.ae804dc0.woff"
+    "main.815a831a.css.map": "/ControlAccessZenith-webserver/static/css/main.815a831a.css.map",
+    "main.a0834dea.js.map": "/ControlAccessZenith-webserver/static/js/main.a0834dea.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.f51234b7.js",
-    "static/css/2.b64570d8.chunk.css",
-    "static/js/2.a12e759f.chunk.js",
-    "static/css/main.e22fd4dc.chunk.css",
-    "static/js/main.1cdef40e.chunk.js"
+    "static/css/main.815a831a.css",
+    "static/js/main.a0834dea.js"
   ]
 }
